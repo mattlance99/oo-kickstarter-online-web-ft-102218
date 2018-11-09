@@ -15,3 +15,7 @@ class Backer
   end 
 
 end
+
+bob = Backer.new("Bob")
+hang_glider = Project.new("Hanglider")
+bob.back_project(hang_glider)
