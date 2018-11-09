@@ -11,7 +11,7 @@ class Backer
   end 
   
   def backed_projects=(project)
-      
+    self.backed_projects << project
   end
   
   def back_project(project)
@@ -21,6 +21,3 @@ class Backer
 
 end
 
-bob = Backer.new("Bob")
-hang_glider = Project.new("Hanglider")
-bob.back_project(hang_glider)
